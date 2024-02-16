@@ -1,0 +1,25 @@
+$font-family-sans-serif: "Noto Sans", sans-serif;
+
+$background: #ebeaea;
+$primary: #fabdb7;
+$secondary: #dadadd;
+$accent: #fabdb7;
+$success: #00ffb7;
+$warning: #d9ff00;
+$danger: #ff0037;
+$light: #ebeaea;
+$dark: #000000;
+$info: #4000ff;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "danger": $danger,
+  "success": $success,
+  "warning": $warning,
+  "light": $light,
+  "info": $info,
+  "dark": $dark,
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

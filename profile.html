@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valentin</title>
+    <!-- BOOTSTRAP ORIGINAL -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css"
+    /> -->
+
+    <!-- CUSTOM BOOTSTRAP -->
+    <link rel="stylesheet" href="./css/custom_sass/custom.css" />
+
+    <!-- ORIGINAL -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- LESS -->
+    <!-- <link rel="stylesheet" href="./css/post_less.css" /> -->
+
+    <!-- SASS -->
+    <link rel="stylesheet" href="./css/post_sass.css" />
+  </head>
+  <body>
+    <div class="w-100 vh-100 position-fixed d-flex align-items-center justify-content-center z-3 d-none" id="popup">
+      <div class="d-flex flex-column bg-body p-3">
+        <h3>      Do you want to delete your account?
+        </h3>
+        <a class="btn m-2" id="yes" href="#">Yes</a>
+        <a class="btn m-2" id="no" href="#">No</a>
+      </div>
+
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <div
+            class="d-flex flex-wrap justify-content-between w-100"
+            style="height: 40px"
+          >
+            <div class="d-flex h-100 flex-grow-1">
+              <a href="./index.html" class="h-100">
+                <img
+                  src="./img/icon.png"
+                  alt="Logotipo"
+                  class="img-fluid h-100"
+                />
+              </a>
+
+              <form class="d-flex w-50">
+                <input
+                  class="form-control"
+                  type="search"
+                  placeholder="Buscar"
+                  aria-label="Buscar"
+                />
+                <button class="btn" type="submit">Buscar</button>
+              </form>
+            </div>
+            <a href="./profile.html">
+              <div class="h-100 flex-row d-flex align-content-center d-none" id="userinfo">
+                <p class="p-2" id="username"></p>
+                <img src="./img/pfp3.jpg" id="userpfp" class="rounded-circle navbar-img" />
+              </div>
+            </a>
+            <div class="h-100">
+              <a class="btn" id="register" href="./register.html">Sign-up</a>
+              <a class="btn" id="login" href="./login.html">Log In</a>
+              <a class="btn d-none" id="logout" href="#">Log Out</a>
+              <a class="btn d-none" id="userdata" href="./userdata.html">See users</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container mt-4">
+      
+      <ul id="users-ul">
+        
+      </ul>
+    </div>
+    <script src="./index.js"></script>
+    <script src="./profile.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

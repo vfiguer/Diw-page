@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valentin</title>
+    <link rel="stylesheet" href="./css/custom_sass/custom.css" />
+    <link rel="stylesheet" href="./css/post_sass.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="page vh-100">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <div
+            class="d-flex flex-wrap justify-content-between w-100"
+            style="height: 40px"
+          >
+            <div class="d-flex h-100 flex-grow-1">
+              <a href="./index.html" class="h-100">
+                <img
+                  src="./img/icon.png"
+                  alt="Logotipo"
+                  class="img-fluid h-100"
+                />
+              </a>
+
+              <form class="d-flex w-50">
+                <input
+                  class="form-control"
+                  type="search"
+                  placeholder="Buscar"
+                  aria-label="Buscar"
+                />
+                <button class="btn" type="submit">Buscar</button>
+              </form>
+            </div>
+            <a href="./profile.html">
+              <div class="h-100 flex-row d-flex align-content-center d-none" id="userinfo">
+                <p class="p-2" id="username"></p>
+                <img src="./img/pfp3.jpg" id="userpfp" class="rounded-circle navbar-img" />
+              </div>
+            </a>
+            <div class="h-100">
+              <a class="btn" id="register" href="./register.html">Sign-up</a>
+              <a class="btn" id="login" href="./login.html">Log In</a>
+              <a class="btn d-none" id="logout" href="#">Log Out</a>
+              <a class="btn d-none" id="userdata" href="./userdata.html">See users</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <h1 class="title text-center my-5">Log In</h1>
+      <div class="container-fluid">
+        <div class="container w-100">
+          <div class="register">
+            <form class="w-100 px-5" id="form">
+              
+              <div class="form-group mb-3">
+                <label for="email" class="my-3"><h4>Email address</h4></label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="form-group mb-3">
+                <label for="password" class="my-3"><h4>Password</h4></label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  required
+                />
+              </div>
+              
+
+  
+              <div class="text-center">
+
+                <button type="submit" class="btn btn-primary mb-3 w-100">
+                  Submit
+                </button>
+              </div>
+        
+
+              <div class="w-100 text-center my-3">
+                <img
+                  src="/img/google.png"
+                  class="social"
+                  style="height: 40px; width: auto; margin-right: 10px"
+                />
+                <img
+                  src="/img/facebook.webp"
+                  class="social"
+                  style="height: 40px; width: auto"
+                  class="mx-2"
+                />
+                <img
+                  src="/img/x.png"
+                  class="social"
+                  style="height: 40px; width: auto"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+    <script src="./login.js"></script>
+    <script src="./node_modules/crypto-js/crypto-js.js"></script>
+  </body>
+</html>

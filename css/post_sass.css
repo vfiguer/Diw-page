@@ -1,0 +1,51 @@
+.btn {
+  color: #000000 !important;
+  outline: 1px solid black;
+  background-color: #fabdb7;
+}
+
+.post {
+  font-family: "Noto Sans", sans-serif;
+}
+.post h1 {
+  font-weight: 800;
+}
+
+.highlight, .selected-segmenent {
+  background-color: #fabdb7;
+  transition: 0.3s;
+}
+.highlight:hover, .selected-segmenent:hover {
+  background-color: #f4d7d4;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.post-image {
+  transition: 0.3s;
+}
+.post-image:hover {
+  transform: scale(1.05);
+}
+
+.buttons-post .btn {
+  margin: 10px;
+}
+
+.post-stats span {
+  font-size: 16pt;
+  font-weight: 600;
+}
+
+.comments textarea {
+  resize: none;
+}
+.comments .btn {
+  margin-top: 10px;
+}
+
+.container {
+  width: calc(100% - 20px);
+}/*# sourceMappingURL=post_sass.css.map */

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Noto Sans', sans-serif !important;
+    color: #000000 !important;
+}
+
+.pfp{
+    width : 150px;
+    height: auto;
+}
+body {
+    color: #000000;
+    background-color: #ebeaea;
+}
+img {
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+.navbar {
+    background-color: #c5c9c9 !important;
+    color: #fff;
+}
+
+.navbar-brand{
+    max-width: 25px;
+    max-height: 25px;
+}
+.navbar .btn-outline-success {
+    background-color: #fabdb7;
+    color: #fff;
+}
+
+.navbar .btn-secondary {
+    background-color: #fabdb7;
+    color: #fff;
+}
+
+.user-profile-container {
+    width: 150px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+
+.user-profile-image {
+    max-width: 100%;
+}
+
+.post-card {
+    margin-bottom: 20px;
+    clear: both;
+    background-color: #c5c9c9;
+}
+
+.trending-card {
+    background-color: #c5c9c9;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.message-image {
+    float: right;
+    max-width: 150px;
+}
+
+.profile-image-container {
+    margin-top: -38px;
+    margin-left: 15px;
+}
+
+h5{
+    font-weight: 700 !important;
+}
+
+h3{
+    font-weight: 900 !important;
+}
+
+.register{
+    background-color: #fabdb7 !important; 
+    border: #000, 1px, solid !important;
+    border-radius: 50px !important; 
+}
